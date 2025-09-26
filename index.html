@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X (formerly Twitter)</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="logo-svg">
+                    <g>
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search X">
+            </div>
+            <div class="user-menu">
+                <button class="tweet-btn">Post</button>
+                <div class="user-avatar">
+                    <img src="https://wallpapercave.com/wp/wp3114655.jpg" alt="User">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar-left">
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Explore</a>
+                <a href="#" class="nav-link">Notifications</a>
+                <a href="#" class="nav-link">Messages</a>
+                <a href="#" class="nav-link">Bookmarks</a>
+                <a href="#" class="nav-link">Lists</a>
+                <a href="#" class="nav-link">Profile</a>
+                <a href="#" class="nav-link">More</a>
+            </nav>
+        </aside>
+        <div class="feed">
+            <div class="tweet-compose">
+                <div class="user-avatar">
+                    <img src="https://wallpapercave.com/wp/wp3114655.jpg" alt="User">
+                </div>
+                <div class="compose-area">
+                    <textarea placeholder="What's happening?"></textarea>
+                    <div class="compose-actions">
+                        <button class="tweet-btn">Post</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-header">
+                    <div class="user-avatar">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.FjSRywv2jSoO2kdlijRZ4gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="User">
+                    </div>
+                    <div class="user-info">
+                        <span class="name">John Doe</span>
+                        <span class="handle">@johndoe</span>
+                        <span class="time">· 2h</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <p>This is a sample tweet. Hello world!</p>
+                </div>
+                <div class="tweet-actions">
+                    <button>💬</button>
+                    <button>🔄</button>
+                    <button>❤️</button>
+                    <button>📤</button>
+                </div>
+            </div>
+            <!-- More tweets can be added here -->
+        </div>
+        <aside class="sidebar-right">
+            <div class="sidebar-item">
+                <h3>Who to follow</h3>
+                <p>Suggestions...</p>
+            </div>
+            <div class="sidebar-item">
+                <h3>What's happening</h3>
+                <p>Trending topics...</p>
+            </div>
+        </aside>
+    </main>
+    <script src="1.js"></script>
+</body>
+</html>
